@@ -568,8 +568,7 @@ def main():
         if Verif3 == True:
             transition()
             Verif3 = False
-        print(compteur_asteroides)
-        print(cooldown_msg)
+        
         pygame.display.flip()
     
 main()
